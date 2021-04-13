@@ -1,27 +1,51 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div
+      class="v-app"
+      :class="{'is-black': isBlack}"
+  >
+    <navigation></navigation>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from './components/HelloWorld.vue';
+import Navigation from './components/Navigation.vue';
+import {defineComponent} from "vue"
+import {useStore} from "vuex"
 
-@Options({
+export default defineComponent({
   components: {
-    HelloWorld,
+    Navigation,
   },
+  data() {
+    return {
+      store: useStore()
+    }
+  },
+
+  computed: {
+    isBlack(): boolean {
+      return this.store.state.isBlack
+    }
+  }
 })
-export default class App extends Vue {}
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import "style/main";
+
+.v-app {
+  box-sizing: border-box;
+  padding-top: $top-nav-height;
+  min-height: 100vh;
+  background: $color--negative;
+  color: $color;
+  position: relative;
+
+  &.is-black {
+    background: $color;
+    color: $color--negative;
+  }
 }
+
 </style>
