@@ -2,7 +2,7 @@
   <section class="v-view-shop">
 
     <template v-if="isFr" >
-      <p>Chopin arrive</p>
+      <p>Shop is Coming Soon</p>
     </template>
 
     <template v-else>

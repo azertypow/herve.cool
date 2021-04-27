@@ -2,21 +2,27 @@
   <section class="v-view-about">
 
     <template v-if="isFr">
-      <p class="h-text-italic">Basé à Genève, HERVÉ blabla fr</p>
+      <p>
+        Basé à Genève, <i>HERVÉ</i> est un atelier de fabrication de pendentifs en verre qui fabrique chaque modèle à la main, ce qui donne à chaque pendentif un côté unique.
+      </p>
+      <p>
+        Chaque modèle est vendu avec un anneau en argent sterling de 11mm.
+      </p>
+      <p>
+        Actuellement disponible en envoi postal en Suisse, n’hésitez pas à m’écrire pour un autre pays à <a href="mailto:order@herve.cool" >order@herve.cool</a> 🙂 !
+      </p>
     </template>
 
     <template v-else>
-      <p class="h-text-italic">Based in Geneva, HERVÉ is an
-        independant glass-earring studio
-        which craft every model by hand
-        giving you unique feeling to wear.</p>
-
-      <p class="h-text-italic">You can either choose to buy
-        the glass design by its own or
-        combine with sterling silver 925,
-        stainless steel, titanium, gold or
-        silver coated regarding your will or
-        budget.</p>
+      <p>
+        Based in Geneva, <i>HERVÉ</i> is a glass pendant design studio which craft every model by hand giving you unique feeling to wear.
+      </p>
+      <p>
+        Each model is sold with an 11mm sterling silver ring.
+      </p>
+      <p>
+        Currently available by mail in Switzerland, don't hesitate to write me for another country at <a href="mailto:order@herve.cool" >order@herve.cool</a> 🙂 !
+      </p>
     </template>
 
   </section>
