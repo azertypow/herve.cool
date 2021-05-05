@@ -7,7 +7,7 @@ $color: black;
 $color--negative: white;
 
 /// grid
-$gutter: 24px;
+$gutter: 30px;
 
 /// font
 $font-size--l: 31px;
@@ -16,7 +16,7 @@ $font-size: 18px;
 $font-line-height: 22px;
 
 // grid
-$top-nav-height: $gutter * 2 + $font-size;
+$top-nav-height: 65px;
 
 @mixin container {
   display: flex;

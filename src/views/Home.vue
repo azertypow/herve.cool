@@ -67,7 +67,7 @@ export default defineComponent({
   height: 100%;
   padding: $gutter * 2;
   box-sizing: border-box;
-  max-width: 300px;
+  max-width: 240px;
 
   > svg {
     display: block;

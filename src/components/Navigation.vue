@@ -113,6 +113,7 @@ export default defineComponent({
 
 .v-nav {
   @include container;
+  height: $top-nav-height;
   user-select: none;
   width: 100%;
   box-sizing: border-box;
@@ -142,6 +143,8 @@ export default defineComponent({
   margin: 0;
   font-size: $font-size--l;
   line-height: 1ex;
+  position: relative;
+  left: -2px;
 
   a {
     text-decoration: none;
@@ -179,9 +182,9 @@ export default defineComponent({
 }
 
 .v-nav__item {
+  @include with-gutter;
   user-select: none;
   cursor: pointer;
-  padding: $gutter $gutter / 2;
 }
 
 .is-black .v-nav {
@@ -215,8 +218,7 @@ export default defineComponent({
 .v-nav__site-color {
   width: 30px;
   height: 30px;
-  padding-top: 0;
-  padding-bottom: 0;
+  box-sizing: content-box;
 
   svg {
     fill: black;
