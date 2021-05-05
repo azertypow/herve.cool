@@ -16,19 +16,19 @@
     >
       <ul class="v-nav__list" >
         <li>
-          <router-link class="h-ui-button" to="/">Home</router-link>
+          <router-link @click="toggleMenu" class="h-ui-button" to="/">Home</router-link>
         </li>
 
         <li>
-          <router-link class="h-ui-button" to="/shop">Shop</router-link>
+          <router-link @click="toggleMenu" class="h-ui-button" to="/shop">Shop</router-link>
         </li>
 
         <li>
-          <router-link class="h-ui-button" to="/about">About</router-link>
+          <router-link @click="toggleMenu" class="h-ui-button" to="/about">About</router-link>
         </li>
 
         <li>
-          <router-link class="h-ui-button" to="/contact">Contact</router-link>
+          <router-link @click="toggleMenu" class="h-ui-button" to="/contact">Contact</router-link>
         </li>
       </ul>
     </div>
@@ -38,8 +38,9 @@
         class="v-nav__right"
     >
       <div
+          v-if="!isOpen"
           @click="toggleSiteLang"
-          class="v-nav__item h-ui-button">Fr/En</div>
+          class="v-nav__item h-ui-button"><span class="v-nav__item-fr">Fr</span>/<span class="v-nav__item-en">En</span></div>
       <div
           @click="toggleTheme"
           class="v-nav__item h-ui-button v-nav__site-color">
@@ -146,6 +147,7 @@ export default defineComponent({
   line-height: 1ex;
   position: relative;
   left: -2px;
+  top: 1px;
 
   a {
     text-decoration: none;
@@ -163,7 +165,7 @@ export default defineComponent({
   border-bottom: solid 1px;
   width: 50%;
   box-sizing: border-box;
-  padding-top: $top-nav-height;
+  padding-top: $top-nav-height - 1px;
 }
 
 .v-nav__list {
@@ -233,4 +235,7 @@ export default defineComponent({
     }
   }
 }
+
+.is-en .v-nav__item-fr {opacity: .6}
+.is-fr .v-nav__item-en {opacity: .6}
 </style>

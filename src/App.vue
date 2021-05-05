@@ -1,7 +1,11 @@
 <template>
   <div
       class="v-app"
-      :class="{'is-black': isBlack}"
+      :class="{
+        'is-black': isBlack,
+        'is-fr': isFr,
+        'is-en': isEn,
+      }"
   >
     <navigation></navigation>
     <router-view></router-view>
@@ -26,7 +30,15 @@ export default defineComponent({
   computed: {
     isBlack(): boolean {
       return this.store.state.isBlack
-    }
+    },
+
+    isFr(): boolean {
+      return this.store.state.isFr
+    },
+
+    isEn(): boolean {
+      return !this.isFr
+    },
   }
 })
 </script>
