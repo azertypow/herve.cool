@@ -112,6 +112,7 @@ export default defineComponent({
 @import "../style/main";
 
 .v-nav {
+  @include with-gutter;
   @include container;
   height: $top-nav-height;
   user-select: none;

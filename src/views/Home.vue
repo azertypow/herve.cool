@@ -65,9 +65,9 @@ export default defineComponent({
   transform: translate3d(-50%, -50%, 0);
   width: 100%;
   height: 100%;
-  padding: $gutter * 2;
+  padding: $gutter * 3;
   box-sizing: border-box;
-  max-width: 240px;
+  max-width: 300px;
 
   > svg {
     display: block;
