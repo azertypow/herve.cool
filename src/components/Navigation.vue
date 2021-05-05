@@ -20,7 +20,12 @@
         </li>
 
         <li>
-          <router-link @click="toggleMenu" class="h-ui-button" to="/shop">Shop</router-link>
+          <a
+              @click="toggleMenu"
+              target="_blank"
+              class="h-ui-button"
+              href="https://herve.bigcartel.com/"
+          >Shop</a>
         </li>
 
         <li>

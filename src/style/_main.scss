@@ -29,6 +29,10 @@ $top-nav-height: 65px;
   padding-left: $gutter / 2;
 }
 
+html, body {
+  background: black;
+}
+
 body {
   font-family: "SuisseIntl-Book", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -39,7 +43,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  //overflow: hidden;
   touch-action: manipulation;
 }
 

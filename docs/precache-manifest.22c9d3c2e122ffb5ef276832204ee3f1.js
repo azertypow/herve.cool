@@ -4,24 +4,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CNAME"
   },
   {
-    "revision": "604e1882948d7700f176",
-    "url": "/css/about.c941636f.css"
+    "revision": "e72c116ad7a5f06bb161",
+    "url": "/css/about.090e3689.css"
   },
   {
-    "revision": "1a243a2c6a4581bb2557",
-    "url": "/css/app.cff05bc2.css"
+    "revision": "3b06ca0fd31d17ec976d",
+    "url": "/css/app.e927c1f7.css"
   },
   {
-    "revision": "00f01f6d5eaf422c74cf",
-    "url": "/css/contact.a1710e79.css"
+    "revision": "abde10fdf9787f2374dd",
+    "url": "/css/contact.a1f7560b.css"
   },
   {
-    "revision": "291595ffeafb1973c0fe",
-    "url": "/css/home.5a86eeaf.css"
+    "revision": "f752c9f4c342f8ef2e0d",
+    "url": "/css/home.178bf984.css"
   },
   {
-    "revision": "ac4185a62c9217337f23",
-    "url": "/css/shop.6cf03d24.css"
+    "revision": "1cbb8ea04f4b90dec9c9",
+    "url": "/css/shop.21b797f6.css"
+  },
+  {
+    "revision": "49a59c60497be955a1c39f7247be48ef",
+    "url": "/img/1.49a59c60.jpeg"
+  },
+  {
+    "revision": "b3aeef4abe0b7fd5a19108969dec7cd5",
+    "url": "/img/2.b3aeef4a.jpeg"
   },
   {
     "revision": "87ab03bf2dbb9604e864c7f7e830dc87",
@@ -84,31 +92,35 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/NOIR/V-NOIR.svg"
   },
   {
-    "revision": "7f0cd1ef562b915438897eb9e1f456e8",
+    "revision": "65cfaa3bff1c1fbb6444048302b61b6a",
+    "url": "/img/img.65cfaa3b.jpeg"
+  },
+  {
+    "revision": "2909d173c154a14fd991dd2233e91de0",
     "url": "/index.html"
   },
   {
-    "revision": "604e1882948d7700f176",
+    "revision": "e72c116ad7a5f06bb161",
     "url": "/js/about.cef6bb47.js"
   },
   {
-    "revision": "1a243a2c6a4581bb2557",
-    "url": "/js/app.0109848e.js"
+    "revision": "3b06ca0fd31d17ec976d",
+    "url": "/js/app.d577797e.js"
   },
   {
     "revision": "c3682893c36feb160e52",
     "url": "/js/chunk-vendors.1c92fb26.js"
   },
   {
-    "revision": "00f01f6d5eaf422c74cf",
+    "revision": "abde10fdf9787f2374dd",
     "url": "/js/contact.b9c45fb5.js"
   },
   {
-    "revision": "291595ffeafb1973c0fe",
-    "url": "/js/home.901bdba8.js"
+    "revision": "f752c9f4c342f8ef2e0d",
+    "url": "/js/home.2621ecb8.js"
   },
   {
-    "revision": "ac4185a62c9217337f23",
+    "revision": "1cbb8ea04f4b90dec9c9",
     "url": "/js/shop.ed2657de.js"
   },
   {

@@ -11,6 +11,73 @@
       </svg>
     </div>
 
+    <div
+        ref="gallery"
+        class="v-home__img-loop"
+    >
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt=""><img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt=""><img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/img.jpeg" alt="">
+      <img src="../assets/imgs/1.jpeg" alt="">
+      <img src="../assets/imgs/2.jpeg" alt="">
+    </div>
+
   </div>
 </template>
 
@@ -83,6 +150,22 @@ export default defineComponent({
     svg {
       fill: white;
     }
+  }
+}
+
+.v-home__img-loop {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  mix-blend-mode: difference;
+  padding-top: 100vh;
+  //overflow: scroll;
+
+  > img {
+    display: block;
+    width: 100%;
+    height: 100%;
   }
 }
 </style>
