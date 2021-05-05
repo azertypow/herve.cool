@@ -125,12 +125,14 @@ export default defineComponent({
 }
 
 .v-nav__left {
-  padding: $gutter;
+  @include container;
+  @include with-gutter;
+  align-items: center;
 }
 
 .v-nav__right {
   @include container;
-  @include with-gutter;
+  //@include with-gutter;
   position: relative;
   z-index: 100;
   align-items: center;
@@ -138,6 +140,8 @@ export default defineComponent({
 
 .v-nav__title {
   margin: 0;
+  font-size: $font-size--l;
+  line-height: 1ex;
 
   a {
     text-decoration: none;

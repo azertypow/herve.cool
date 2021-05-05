@@ -1,3 +1,5 @@
+@import "./font-loader";
+
 // params
 
 /// theme
@@ -5,9 +7,11 @@ $color: black;
 $color--negative: white;
 
 /// grid
-$gutter: 22px;
+$gutter: 24px;
 
 /// font
+$font-size--l: 31px;
+
 $font-size: 18px;
 $font-line-height: 22px;
 
@@ -26,7 +30,7 @@ $top-nav-height: $gutter * 2 + $font-size;
 }
 
 body {
-  font-family: "Suisse Intl", sans-serif;
+  font-family: "SuisseIntl-Book", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: $font-line-height;
