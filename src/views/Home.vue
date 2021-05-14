@@ -160,6 +160,7 @@ export default defineComponent({
   z-index: 100;
   mix-blend-mode: difference;
   padding-top: 100vh;
+  pointer-events: none;
   //overflow: scroll;
 
   > img {

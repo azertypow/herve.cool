@@ -129,7 +129,7 @@ export default defineComponent({
   top: 0;
   left: 0;
   border-bottom: solid 1px;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .v-nav__left {
