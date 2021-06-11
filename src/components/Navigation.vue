@@ -11,7 +11,7 @@
     </div>
 
     <div
-        v-if="isOpen"
+        v-if="isOpen && isMobile"
         class="v-nav__navigation"
     >
       <ul class="v-nav__list" >
@@ -42,6 +42,19 @@
     <div
         class="v-nav__right"
     >
+
+      <template v-if="isDesktop">
+        <router-link @click="toggleMenu" class="v-nav__item h-ui-button" to="/">Home</router-link>
+        <a
+            @click="toggleMenu"
+            target="_blank"
+            class="v-nav__item h-ui-button"
+            href="https://herve.bigcartel.com/"
+        >Shop</a>
+        <router-link @click="toggleMenu" class="v-nav__item h-ui-button" to="/about">About</router-link>
+        <router-link @click="toggleMenu" class="v-nav__item h-ui-button" to="/contact">Contact</router-link>
+      </template>
+
       <div
           v-if="!isOpen"
           @click="toggleSiteLang"
@@ -55,7 +68,8 @@
         </svg>
       </div>
       <div class="h-ui-button v-nav__toggle-icon"
-          @click="toggleMenu"
+           @click="toggleMenu"
+           v-if="isMobile"
       >
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              x="0px"
@@ -95,6 +109,16 @@ export default defineComponent({
       isOpen: false,
       store: useStore(),
     }
+  },
+
+  computed: {
+    isDesktop(): boolean {
+      return !this.store.state.isMobile
+    },
+
+    isMobile(): boolean {
+      return this.store.state.isMobile
+    },
   },
 
   methods: {

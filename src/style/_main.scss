@@ -18,6 +18,9 @@ $font-line-height: 22px;
 // grid
 $top-nav-height: 65px;
 
+$break-point-small: 580px;
+$break-point-reg:   900px;
+
 @mixin container {
   display: flex;
   flex-wrap: wrap;
@@ -75,4 +78,15 @@ a {
 
 .h-ui-button {
   line-height: 1em;
+  text-decoration: none;
+}
+
+.h-text-content {
+  max-width: 35em;
+}
+
+.h-has-gutter {
+  padding-left: $gutter / 2;
+  padding-right: $gutter /2;
+  box-sizing: border-box;
 }

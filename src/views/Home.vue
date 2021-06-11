@@ -112,6 +112,10 @@ export default defineComponent({
   mix-blend-mode: difference;
   padding-top: 100vh;
   pointer-events: none;
+  object-fit: contain;
+  object-position: center;
+  max-width: 750px;
+  margin: auto;
   //overflow: scroll;
 
   > img {

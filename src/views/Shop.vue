@@ -1,13 +1,15 @@
 <template>
   <section class="v-view-shop">
 
-    <template v-if="isFr" >
-      <p>Shop is Coming Soon</p>
-    </template>
+    <div class="h-text-content h-has-gutter">
+      <template v-if="isFr" >
+        <p>Shop is Coming Soon</p>
+      </template>
 
-    <template v-else>
-      <p>Shop is Coming Soon</p>
-    </template>
+      <template v-else>
+        <p>Shop is Coming Soon</p>
+      </template>
+    </div>
 
   </section>
 </template>
