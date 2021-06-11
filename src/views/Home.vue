@@ -108,7 +108,7 @@ export default defineComponent({
   position: relative;
   width: 100%;
   height: 100%;
-  z-index: 100;
+  z-index: 10000;
   mix-blend-mode: difference;
   padding-top: 100vh;
   pointer-events: none;
