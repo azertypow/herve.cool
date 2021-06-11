@@ -15,67 +15,18 @@
         ref="gallery"
         class="v-home__img-loop"
     >
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt=""><img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt=""><img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
-      <img src="../assets/imgs/img.jpeg" alt="">
-      <img src="../assets/imgs/1.jpeg" alt="">
-      <img src="../assets/imgs/2.jpeg" alt="">
+      <img src="../assets/imgs/1.jpg" alt="">
+      <img src="../assets/imgs/2.jpg" alt="">
+      <img src="../assets/imgs/3.jpg" alt="">
+      <img src="../assets/imgs/4.jpg" alt="">
+      <img src="../assets/imgs/5.jpg" alt="">
+      <img src="../assets/imgs/6.jpg" alt="">
+      <img src="../assets/imgs/7.jpg" alt="">
+      <img src="../assets/imgs/8.jpg" alt="">
+      <img src="../assets/imgs/9.jpg" alt="">
+      <img src="../assets/imgs/10.jpg" alt="">
+      <img src="../assets/imgs/11.jpg" alt="">
+      <img src="../assets/imgs/12.jpg" alt="">
     </div>
 
   </div>
