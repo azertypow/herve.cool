@@ -86,21 +86,15 @@ export default defineComponent({
   padding: $gutter * 3;
   box-sizing: border-box;
   max-width: 300px;
+  z-index: 750;
+  mix-blend-mode: difference;
 
   > svg {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: contain;
-    fill: black;
-  }
-}
-
-.is-black {
-  .v-home__icon {
-    svg {
-      fill: white;
-    }
+    fill: white;
   }
 }
 
@@ -108,7 +102,7 @@ export default defineComponent({
   position: relative;
   width: 100%;
   height: 100%;
-  z-index: 10000;
+  z-index: 500;
   mix-blend-mode: difference;
   padding-top: 100vh;
   pointer-events: none;

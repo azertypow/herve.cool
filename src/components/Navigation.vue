@@ -220,7 +220,6 @@ export default defineComponent({
 }
 
 .is-black .v-nav {
-  background: $color;
   color: $color--negative;
 }
 
