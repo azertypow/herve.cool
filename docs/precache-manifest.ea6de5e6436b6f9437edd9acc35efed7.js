@@ -4,22 +4,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CNAME"
   },
   {
-    "revision": "0c2ce913fd665e06b69a1b9684d62a5f",
-    "url": "/android-chrome-192x192.png"
-  },
-  {
-    "revision": "09f35101730834137e1f39af2191750a",
-    "url": "/android-chrome-512x512.png"
-  },
-  {
-    "revision": "f72dd7cf62cdf912ae7472aa63c8f48f",
-    "url": "/apple-touch-icon.png"
-  },
-  {
-    "revision": "a493ba0aa0b8ec8068d786d7248bb92c",
-    "url": "/browserconfig.xml"
-  },
-  {
     "revision": "ea94f976a8fd368f183c",
     "url": "/css/about.e9fa9206.css"
   },
@@ -38,14 +22,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f5353f419152b18f7ac5",
     "url": "/css/shop.94d073cf.css"
-  },
-  {
-    "revision": "99cecb54e1e76e727f9dd03f7f46eaa7",
-    "url": "/favicon-16x16.png"
-  },
-  {
-    "revision": "32c91f4981d537c6c5fa77101efd3b05",
-    "url": "/favicon-32x32.png"
   },
   {
     "revision": "30ddfbe4bd3913b9f58865b7369e9999",
@@ -192,32 +168,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/manifest.json"
   },
   {
-    "revision": "cc63065fa08190cfb7577691aa9a983a",
-    "url": "/mstile-144x144.png"
-  },
-  {
-    "revision": "fab65d7350eba1394a31c3e15fe9ac13",
-    "url": "/mstile-150x150.png"
-  },
-  {
-    "revision": "67029c63c4166340e5900d5ccdd01111",
-    "url": "/mstile-310x150.png"
-  },
-  {
-    "revision": "f88455d2fa6025815817d642640c1718",
-    "url": "/mstile-310x310.png"
-  },
-  {
-    "revision": "794c73b6b10899302919adb73ecd9737",
-    "url": "/mstile-70x70.png"
-  },
-  {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/robots.txt"
-  },
-  {
-    "revision": "040b67602575bd968e7ee5aadd992e49",
-    "url": "/safari-pinned-tab.svg"
   },
   {
     "revision": "b9aa277fcfc34c31db6c7a7ea3469b8c",
