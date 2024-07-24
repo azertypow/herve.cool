@@ -4,23 +4,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CNAME"
   },
   {
-    "revision": "ea94f976a8fd368f183c",
+    "revision": "ec670f6cf94c5a0988ba",
     "url": "/css/about.e9fa9206.css"
   },
   {
-    "revision": "c7bbf19a924c6e68775c",
+    "revision": "4a6db9a425ae4d343c5f",
     "url": "/css/app.a1103169.css"
   },
   {
-    "revision": "5e451489abb701384264",
+    "revision": "89939c4ff179198cec96",
     "url": "/css/contact.f7a120d8.css"
   },
   {
-    "revision": "e8140cb1f4bfe3eddadf",
+    "revision": "f93a95eb389fca1724b4",
     "url": "/css/home.a546e64a.css"
   },
   {
-    "revision": "f5353f419152b18f7ac5",
+    "revision": "2ee0105928687b3dc40e",
     "url": "/css/shop.94d073cf.css"
   },
   {
@@ -88,6 +88,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/NOIR/E-NOIR.svg"
   },
   {
+    "revision": "19f0ed70ad8570027e3262fccde7e8fe",
+    "url": "/img/NOIR/É-NOIR.svg"
+  },
+  {
     "revision": "047a4fc01a855e526140c450cb21a75c",
     "url": "/img/NOIR/H-NOIR.svg"
   },
@@ -128,40 +132,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/NOIR/V-NOIR.svg"
   },
   {
-    "revision": "19f0ed70ad8570027e3262fccde7e8fe",
-    "url": "/img/NOIR/É-NOIR.svg"
-  },
-  {
     "revision": "bc49cdd7fe3d9503977fa7bf3fe0b00d",
     "url": "/img/model.bc49cdd7.jpg"
   },
   {
-    "revision": "1939646c11d181685f200c436b792b13",
+    "revision": "0d35a677272a949a3e4897d3e72071e6",
     "url": "/index.html"
   },
   {
-    "revision": "ea94f976a8fd368f183c",
-    "url": "/js/about.4bb61d18.js"
+    "revision": "ec670f6cf94c5a0988ba",
+    "url": "/js/about.08c9431c.js"
   },
   {
-    "revision": "c7bbf19a924c6e68775c",
-    "url": "/js/app.ce18e2d4.js"
+    "revision": "4a6db9a425ae4d343c5f",
+    "url": "/js/app.116a4390.js"
   },
   {
-    "revision": "464d80a64266e7876ddf",
-    "url": "/js/chunk-vendors.a2ca1b8b.js"
+    "revision": "58fefe3153d0da6ffcee",
+    "url": "/js/chunk-vendors.519a7f5c.js"
   },
   {
-    "revision": "5e451489abb701384264",
-    "url": "/js/contact.7296ffff.js"
+    "revision": "89939c4ff179198cec96",
+    "url": "/js/contact.a0612ad6.js"
   },
   {
-    "revision": "e8140cb1f4bfe3eddadf",
-    "url": "/js/home.336331b4.js"
+    "revision": "f93a95eb389fca1724b4",
+    "url": "/js/home.b6fe90ae.js"
   },
   {
-    "revision": "f5353f419152b18f7ac5",
-    "url": "/js/shop.37c2ae71.js"
+    "revision": "2ee0105928687b3dc40e",
+    "url": "/js/shop.57fb6d19.js"
   },
   {
     "revision": "ad64b18fd4ea1b02a1205eac04470b9e",
